@@ -1223,7 +1223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1822,6 +1822,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: '    LEVEL 3'
       objectReference: {fileID: 0}
+    - target: {fileID: 3795101071640823886, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+      propertyPath: m_Text
+      value: '    LEVEL 3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4299075159380927568, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+      propertyPath: m_Text
+      value: LEVEL 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467474218524520638, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5370333759780743399, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1950,16 +1962,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: LEVEL 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8322991149577372072, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 864681209}
+    - target: {fileID: 8322991149577372072, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1849594315}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
---- !u!1 &906378771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6606188612407060951, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+--- !u!114 &906378771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3952985324165264777, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
   m_PrefabInstance: {fileID: 906378770}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &906378772 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1378181810231875237, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3952985324165264776, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
   m_PrefabInstance: {fileID: 906378770}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1970,7 +1996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &906378773 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3432106864573259228, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3952985324165264779, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
   m_PrefabInstance: {fileID: 906378770}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1979,17 +2005,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &906378774 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2337736744362862786, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+--- !u!1 &906378774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7522792846098501251, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
   m_PrefabInstance: {fileID: 906378770}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &909719257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5178,7 +5198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5305,15 +5325,15 @@ PrefabInstance:
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: heart1
       value: 
-      objectReference: {fileID: 906378774}
+      objectReference: {fileID: 906378773}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: heart2
       value: 
-      objectReference: {fileID: 906378773}
+      objectReference: {fileID: 906378772}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: heart3
       value: 
-      objectReference: {fileID: 906378772}
+      objectReference: {fileID: 906378771}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: player
       value: 
@@ -5329,7 +5349,7 @@ PrefabInstance:
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: completeLevelUI
       value: 
-      objectReference: {fileID: 906378771}
+      objectReference: {fileID: 906378774}
     - target: {fileID: 6266846215467729123, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5519,7 +5539,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8583391131430020230, guid: de737f9710b1fa74c879f91c45d9c506, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8583391131430020230, guid: de737f9710b1fa74c879f91c45d9c506, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5577,6 +5597,10 @@ PrefabInstance:
     - target: {fileID: 8876851244455717824, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876851244455717824, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8876851244455717826, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_Materials.Array.data[0]

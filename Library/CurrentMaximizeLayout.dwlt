@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 876, y: 492}
   m_MaxSize: {x: 16001, y: 14042}
   vertical: 0
-  controlID: 64099
+  controlID: 75911
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 601, y: 492}
   m_MaxSize: {x: 12001, y: 14042}
   vertical: 1
-  controlID: 64100
+  controlID: 75912
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 601, y: 221}
   m_MaxSize: {x: 12001, y: 4021}
   vertical: 0
-  controlID: 64101
+  controlID: 75913
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,9 +219,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ec3d0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9670fdff9875fdff0078fdff5ca0fdff58a1fdffeca4fdff1ea5fdff76a5fdffe2b3fdffe4b3fdff28b7fdff98b7fdff78e7fdff88f5fdffe05ffeff62c4fefff8c4feff00c7fefff6d8feffaeddfeffe4ddfeff98defeff7ae9feff3ef1feff66f5feff9cf5feffb0f6feff74fafeffaafafeff5efbfeff3002ffffc404ffff7805ffff02c8ffff0af2ffff40f4ffff6cfbffffb04f0200ba4f02004c51020056510200fa51020038520200425202006e520200b25c0200bc5c0200345d02003e5d0200
+      m_SelectedIDs: ea960200
+      m_LastClickedID: 169706
+      m_ExpandedIDs: 96aefcffea960200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -300,17 +300,17 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_OverrideSceneCullingMask: 0
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 347.1955, y: 204.32465, z: 179.87985}
+    m_Target: {x: 264.7326, y: 75.27145, z: -48.531666}
     speed: 2
-    m_Value: {x: 347.1955, y: 204.32465, z: 179.87985}
+    m_Value: {x: 264.7326, y: 75.27145, z: -48.531666}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 271.94193
+    m_Target: 280.54
     speed: 2
-    m_Value: 271.94193
+    m_Value: 280.54
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -558,22 +558,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProjects\Cube Dash- Tinio, Aganus\Cube Dash
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e03d0000
-    m_LastClickedID: 15840
-    m_ExpandedIDs: 00000000ce3d0000d83d0000dc3d00004629020000ca9a3b
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: de3d0000
+    m_LastClickedID: 15838
+    m_ExpandedIDs: 00000000ce3d0000d83d0000da3d0000dc3d00004629020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,7 +601,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce3d0000d83d0000dc3d00004629020000ca9a3b
+    m_ExpandedIDs: 00000000ce3d0000d83d0000da3d0000dc3d00004629020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,9 +626,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ec3d0000
-    m_LastClickedInstanceID: 15852
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: ea960200
+    m_LastClickedInstanceID: 169706
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ae4d000072100100de7dffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 154996
+  m_LastSelectedObjectID: 169706
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
