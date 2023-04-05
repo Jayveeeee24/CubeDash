@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isControllable == true)
         {
+
             rb.AddForce(0, 0, forwardForce * Time.deltaTime);
         }
 

@@ -569,6 +569,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9bff0118eb359f4296b694938263bd8, type: 3}
+--- !u!1 &242565991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3952985324165264782, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
+  m_PrefabInstance: {fileID: 906378770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &266094990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3795101071640823886, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
       propertyPath: m_Text
-      value: '    LEVEL 3'
+      value: '    SKY - LEVEL 3'
       objectReference: {fileID: 0}
     - target: {fileID: 4299075159380927568, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
       propertyPath: m_Text
@@ -2005,11 +2010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &906378774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7522792846098501251, guid: 5c7212e0b8a15b44b868a5913301d507, type: 3}
-  m_PrefabInstance: {fileID: 906378770}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &909719257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5349,7 +5349,7 @@ PrefabInstance:
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: completeLevelUI
       value: 
-      objectReference: {fileID: 906378774}
+      objectReference: {fileID: 242565991}
     - target: {fileID: 6266846215467729123, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: m_RootOrder
       value: 0
