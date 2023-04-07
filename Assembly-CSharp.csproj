@@ -66,6 +66,12 @@
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\ScaleParticles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
