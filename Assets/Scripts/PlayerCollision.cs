@@ -4,19 +4,25 @@ using UnityEngine.UI;
 
 public class PlayerCollision : MonoBehaviour
 {
-
     public PlayerMovement playerMovement;
+    //public CameraShake cameraShake;
     private void OnCollisionEnter(Collision collisionInfo)
     {
         //Debug.Log(collisionInfo.collider.name);
 
-        if(collisionInfo.collider.tag == "Obstacle")
+        if (collisionInfo.collider.tag == "Obstacle")
         {
-            //Debug.Log("We hit an obstacle!");
+            //StartCoroutine(cameraShake.Shake(.1f, .01f));
             if (collisionInfo.collider.name.Contains("Obstacle"))
             {
+                //Destroy(collisionInfo.gameObject);
                 StartCoroutine(DestroyObstacle(collisionInfo.gameObject));
+            }else if (collisionInfo.collider.name.Contains("Wall"))
+            {
+                StartCoroutine(MovePlayer());
             }
+
+
             if (FindObjectOfType<GameManager>().removeHeart() <= 0)
             {
                 playerMovement.enabled = false;
@@ -26,12 +32,23 @@ public class PlayerCollision : MonoBehaviour
             }
 
         }
+
     }
 
     IEnumerator DestroyObstacle(GameObject gameObject)
     {
-        yield return new WaitForSeconds(0.3f);
+        playerMovement.enabled = false;
+        yield return new WaitForSeconds(.7f);
         Destroy(gameObject);
+        playerMovement.enabled = true;
+    }
+
+    IEnumerator MovePlayer()
+    {
+        playerMovement.enabled = false;
+        yield return new WaitForSeconds(.7f);
+        transform.position = new Vector3(0f, transform.position.y, transform.position.z);
+        playerMovement.enabled = true;
     }
 
 }

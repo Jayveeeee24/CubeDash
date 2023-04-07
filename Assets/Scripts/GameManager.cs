@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -36,24 +38,22 @@ public class GameManager : MonoBehaviour
 
     public void GameComplete()
     {
-        player.isControllable = false;   
+        player.enabled = false;   
         completeLevelUI.SetActive(true);
     }
-
-
     public void GameOver()
     {
         if (!isGameOver)
         {
             isGameOver = true;
             Invoke("Restart", restartDelay);
-
-            heart = 3;
         }
     }
 
     public int removeHeart()
     {
+        //Debug.Log("Remove heart" + heart.ToString());
+
         if (heart == 3)
         {
             anim = heart3.GetComponent<Animation>();
@@ -73,14 +73,29 @@ public class GameManager : MonoBehaviour
         }
 
         heart--;
-        Debug.Log(heart);
         return heart;
     }
 
     void Restart()
     {
-        SceneManager.LoadScene(1);
+        heart = 3;
+        //Debug.Log(heart.ToString());
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    //public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
+    //{
+    //    float currentTime = 0;
+    //    float start = audioSource.volume;
+    //    while (currentTime < duration)
+    //    {
+    //        currentTime += Time.deltaTime;
+    //        audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+    //        yield return null;
+    //    }
+    //    yield break;
+    //}
+
 
 
 }
