@@ -5,11 +5,24 @@ using UnityEngine.UI;
 public class PlayerCollision : MonoBehaviour
 {
     public PlayerMovement playerMovement;
+    Text coinScore;
+
     //public CameraShake cameraShake;
     private void OnCollisionEnter(Collision collisionInfo)
     {
         //Debug.Log(collisionInfo.collider.name);
 
+        //coinScore = GameObject.Find("CoinScore").GetComponent<Text>();
+        //if (collisionInfo.collider.tag == "Collectibles")
+        //{
+        //    //collisionInfo.gameObject.SetActive(false);
+        //    Destroy(collisionInfo.gameObject);
+
+        //    if (collisionInfo.collider.name.Contains("Coin"))
+        //    {
+        //        coinScore.text = (int.Parse(coinScore.text) + 1).ToString();
+        //    }
+        //}
         if (collisionInfo.collider.tag == "Obstacle")
         {
             //StartCoroutine(cameraShake.Shake(.1f, .01f));
@@ -17,11 +30,11 @@ public class PlayerCollision : MonoBehaviour
             {
                 //Destroy(collisionInfo.gameObject);
                 StartCoroutine(DestroyObstacle(collisionInfo.gameObject));
-            }else if (collisionInfo.collider.name.Contains("Wall"))
+            }
+            else if (collisionInfo.collider.name.Contains("Wall"))
             {
                 StartCoroutine(MovePlayer());
             }
-
 
             if (FindObjectOfType<GameManager>().removeHeart() <= 0)
             {

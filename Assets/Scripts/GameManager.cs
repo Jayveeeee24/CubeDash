@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
 {
     public bool isGameOver = false;
     public float restartDelay = 1;
+
     public GameObject completeLevelUI;
+    public Image chapterImage, coinImage;
     public PlayerMovement player;
 
     public static int heart = 3;
@@ -38,7 +40,9 @@ public class GameManager : MonoBehaviour
 
     public void GameComplete()
     {
-        player.enabled = false;   
+        chapterImage.enabled = false;
+        coinImage.enabled = false;
+        player.enabled = false;
         completeLevelUI.SetActive(true);
     }
     public void GameOver()
@@ -52,7 +56,6 @@ public class GameManager : MonoBehaviour
 
     public int removeHeart()
     {
-        //Debug.Log("Remove heart" + heart.ToString());
 
         if (heart == 3)
         {
@@ -79,7 +82,6 @@ public class GameManager : MonoBehaviour
     void Restart()
     {
         heart = 3;
-        //Debug.Log(heart.ToString());
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
