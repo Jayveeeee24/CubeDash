@@ -143,3 +143,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 8876851244455717838}
+  collideAlert: {fileID: 8300000, guid: 56c2b904554af2d4e92130a245df4530, type: 3}

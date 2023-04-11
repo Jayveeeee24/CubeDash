@@ -6,6 +6,7 @@ public class PlayerCollision : MonoBehaviour
 {
     public PlayerMovement playerMovement;
     Text coinScore;
+    public AudioClip collideAlert;
 
     //public CameraShake cameraShake;
     private void OnCollisionEnter(Collision collisionInfo)
@@ -26,6 +27,8 @@ public class PlayerCollision : MonoBehaviour
         if (collisionInfo.collider.tag == "Obstacle")
         {
             //StartCoroutine(cameraShake.Shake(.1f, .01f));
+            AudioSource.PlayClipAtPoint(collideAlert, transform.position);
+
             if (collisionInfo.collider.name.Contains("Obstacle"))
             {
                 //Destroy(collisionInfo.gameObject);

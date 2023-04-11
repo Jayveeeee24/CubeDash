@@ -7,6 +7,7 @@ public class ShowMovingUI : MonoBehaviour
 {
     public Canvas MovingUIWarning;
     public Rigidbody player;
+    public AudioClip warningAlert;
     private void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.collider.tag == "Player")
@@ -19,6 +20,7 @@ public class ShowMovingUI : MonoBehaviour
     {
         player.isKinematic = true;
         MovingUIWarning.gameObject.SetActive(true);
+        AudioSource.PlayClipAtPoint(warningAlert, transform.position);
         yield return new WaitForSeconds(2f);
         player.isKinematic = false;
         MovingUIWarning.gameObject.SetActive(false);

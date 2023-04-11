@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public static int heart = 3;
     private Animation anim;
     public Image heart1, heart2, heart3;
+    public AudioClip successAlert;
 
     public void Start()
     {

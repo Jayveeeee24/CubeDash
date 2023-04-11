@@ -23,9 +23,6 @@ add high blocks
 introduce triangle shaped blocks
 
 
-
-
-
 level design ideas
 >obstacle rotations
 >high obstacle
