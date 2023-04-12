@@ -7,16 +7,15 @@ public class CoinCollect : MonoBehaviour
 {
     Text coinScore;
 
-    private void OnCollisionEnter(Collision collider)
+    private void OnTriggerEnter(Collider collider)
     {
-        //if (collider.collider.tag == "Player")
-        //{
+        if (collider.name == "Player")
+        {
+            coinScore = GameObject.Find("CoinScore").GetComponent<Text>();
+            coinScore.text = (int.Parse(coinScore.text) + 1).ToString();
 
-        //    coinScore = GameObject.Find("CoinScore").GetComponent<Text>();
-        //    coinScore.text = (int.Parse(coinScore.text) + 1).ToString();
-
-        //    //Destroy(gameObject);
-        //    Destroy(gameObject);
-        //}
+            Destroy(gameObject);
+            //this.gameObject.SetActive(false);
+        }
     }
 }

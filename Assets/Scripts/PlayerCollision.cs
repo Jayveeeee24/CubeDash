@@ -24,6 +24,7 @@ public class PlayerCollision : MonoBehaviour
         //        coinScore.text = (int.Parse(coinScore.text) + 1).ToString();
         //    }
         //}
+
         if (collisionInfo.collider.tag == "Obstacle")
         {
             //StartCoroutine(cameraShake.Shake(.1f, .01f));

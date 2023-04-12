@@ -30,4 +30,7 @@ level design ideas
 >shapes that made up of blocks
 
 
+android port. 
+controls: either by tilt or by by buttons
+
 
