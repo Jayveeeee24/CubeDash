@@ -720,6 +720,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
+      propertyPath: Shield
+      value: 
+      objectReference: {fileID: 8876851244733142838}
+    - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: heart1
       value: 
       objectReference: {fileID: 906378773}
@@ -1065,3 +1069,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+--- !u!1 &8876851244733142838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1595677298240890694, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+  m_PrefabInstance: {fileID: 8876851244733142837}
+  m_PrefabAsset: {fileID: 0}

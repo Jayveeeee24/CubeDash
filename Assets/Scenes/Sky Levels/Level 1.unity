@@ -1335,6 +1335,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9bff0118eb359f4296b694938263bd8, type: 3}
+--- !u!1 &259141700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1595677298240890694, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+  m_PrefabInstance: {fileID: 8876851244733142837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &340821726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8163,6 +8168,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
+      propertyPath: Shield
+      value: 
+      objectReference: {fileID: 259141700}
+    - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: heart1
       value: 
       objectReference: {fileID: 6606188613354187808}
@@ -8565,7 +8574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8397878956077180105, guid: 91d453389006f114a8d9771a5a41f9bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1005
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8397878956077180105, guid: 91d453389006f114a8d9771a5a41f9bc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8677,6 +8686,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7573824237607824224, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8876851244455717824, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_Name
       value: Player
@@ -8757,6 +8770,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 8876851244455717838, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8876851244455717838, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: forwardForce
       value: 3100

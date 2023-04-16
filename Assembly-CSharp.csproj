@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
-    <Compile Include="Assets\Scripts\MoveBlock.cs" />
+    <Compile Include="Assets\Scripts\JumpGround.cs" />
     <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
+    <Compile Include="Assets\Scripts\MoveBlock.cs" />
     <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
     <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />

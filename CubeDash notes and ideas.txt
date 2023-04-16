@@ -1,10 +1,37 @@
-add falling objects, and warning for this [different block color, preferably yellow] [introduce in level 5 sky]
-add bombs [introduce in fire levels] [black]
-add moving blocks [blue][introduce in water levels]
+EXCLUSIVE OBSTACLE
+
+SKY
+Moving Block [Horizontal][Blue]
+Falling Block [White]
+Floating Block
+
+OCEAN
+Moving Block [Vertical][Blue]
+Whirlpool Obstacle[Sucks cube in][Dark Blue]
+Turning Block [Purple]
+
+MOUNTAIN
+Super High Block
+Spiky Block [Brown]
+
+FOREST
+Sticky Block [Gray] [Slow Pass Through]
+Camouflage Block [Green] [Interval Visibility]
+
+VOLCANO 
+Bomb Block [Red]
+Lava [Red] [Slow + Damage]
+Fire Block [Red] [Continous Damage]
+
+VOID
+All in previous chap
+Portal
+
+
+
 add powerups [jump, health, invincible, slowmo, tiny] with set amount of time [introduce in nature chapter]
 add bad powerups [needs further discussion] [slippery, haste, wider] [introduce in fire chapter]]]
 add coins, [1 star. 2 star, 3 star]
-
 
 improve level design [have a distinguish level of difficulty
 add chapters [5 each chapters with maybe a twist on each level 5]

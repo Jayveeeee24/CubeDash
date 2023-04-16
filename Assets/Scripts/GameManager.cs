@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     public static int heart = 3;
     private Animation anim;
     public Image heart1, heart2, heart3;
-    public AudioClip successAlert;
+
+    public bool isShieldActive = false;
+    public GameObject Shield;
 
     public void Start()
     {
@@ -37,6 +39,15 @@ public class GameManager : MonoBehaviour
             heart2.enabled = true;
             heart2.enabled = true;
         }
+    }
+
+    public IEnumerator ActivateShield()
+    {
+        Shield.SetActive(true);
+        isShieldActive = true;
+        yield return new WaitForSeconds(2.5f);
+        Shield.SetActive(false);
+        isShieldActive = false;
     }
 
     public void GameComplete()
@@ -85,20 +96,5 @@ public class GameManager : MonoBehaviour
         heart = 3;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-    //public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
-    //{
-    //    float currentTime = 0;
-    //    float start = audioSource.volume;
-    //    while (currentTime < duration)
-    //    {
-    //        currentTime += Time.deltaTime;
-    //        audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
-    //        yield return null;
-    //    }
-    //    yield break;
-    //}
-
-
 
 }
