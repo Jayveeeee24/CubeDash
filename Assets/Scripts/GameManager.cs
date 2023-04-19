@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Reflection;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeLevelUI;
     public Image chapterImage, coinImage;
-    public PlayerMovement player;
+    public PlayerMovement playerMovement;
 
     public static int heart = 3;
     private Animation anim;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     public bool isShieldActive = false;
     public GameObject Shield;
+    //public MeshRenderer playerMeshRenderer;
 
     public void Start()
     {
@@ -50,11 +52,30 @@ public class GameManager : MonoBehaviour
         isShieldActive = false;
     }
 
+    //public IEnumerator Flash(float time, float intervalTime)
+    //{
+
+    //    Material mesh = playerMeshRenderer.material;
+    //    Color[] colors = { Color.yellow, Color.red };
+    //    int index = 0;
+    //    float elapsedTime = 0f;
+    //    while (elapsedTime < time)
+    //    {
+    //        isShieldActive = true;
+    //        mesh.color = colors[index % 2];
+    //        elapsedTime += Time.deltaTime;
+    //        index++;
+    //        yield return new WaitForSeconds(intervalTime);
+    //        isShieldActive = false;
+
+    //    }
+    //}
+
     public void GameComplete()
     {
         chapterImage.enabled = false;
         coinImage.enabled = false;
-        player.enabled = false;
+        playerMovement.enabled = false;
         completeLevelUI.SetActive(true);
     }
     public void GameOver()

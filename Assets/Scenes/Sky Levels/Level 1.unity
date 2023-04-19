@@ -322,6 +322,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -385,7 +389,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &68568699
 PrefabInstance:
@@ -684,6 +690,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -747,7 +757,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &136888322
 PrefabInstance:
@@ -756,6 +768,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinCollectAlert
       value: 
@@ -816,7 +832,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &147979822
 PrefabInstance:
@@ -3737,6 +3755,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -3800,7 +3822,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &1105043524
 PrefabInstance:
@@ -4419,6 +4443,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -4482,7 +4510,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &1308105118
 PrefabInstance:
@@ -4857,6 +4887,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c0b7a8441e46b74d9031797474c5d74, type: 3}
+--- !u!23 &1381000791 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8876851244455717826, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+  m_PrefabInstance: {fileID: 8876851244733142837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1381000793 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4167282187088272290, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+  m_PrefabInstance: {fileID: 8876851244733142837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1391828773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5785,6 +5825,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -5848,7 +5892,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &1720675220
 PrefabInstance:
@@ -6458,6 +6504,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinCollectAlert
       value: 
       objectReference: {fileID: 8300000, guid: 7c4971aa51df852439698dc8d116292e, type: 3}
@@ -6517,7 +6567,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &1870905772
 PrefabInstance:
@@ -7114,6 +7166,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -7374,6 +7430,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinScore
       value: 
       objectReference: {fileID: 1763503788}
@@ -7437,7 +7497,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &2056641236
 PrefabInstance:
@@ -7831,6 +7893,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 1381000793}
+    - target: {fileID: 4690932881446388471, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
       propertyPath: coinCollectAlert
       value: 
       objectReference: {fileID: 8300000, guid: 7c4971aa51df852439698dc8d116292e, type: 3}
@@ -7890,7 +7956,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 33059d94a0bb6384dbfcbac1bb0b37f3, type: 3}
 --- !u!1001 &644777486678374025
 PrefabInstance:
@@ -8149,7 +8217,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3131963632452604994, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: m_Volume
-      value: 0.2
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 3131963632452604994, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: m_audioClip
@@ -8186,7 +8254,7 @@ PrefabInstance:
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1263640779}
+      objectReference: {fileID: 1381000791}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: CoinsUI
       value: 
@@ -8212,9 +8280,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1263640779}
+    - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 6606188613354187809}
+    - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
+      propertyPath: playerMeshRenderer
+      value: 
+      objectReference: {fileID: 1381000791}
     - target: {fileID: 6266846215467729123, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8686,6 +8762,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4167282187088272290, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167282187088272290, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7573824237607824224, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -8697,6 +8781,10 @@ PrefabInstance:
     - target: {fileID: 8876851244455717824, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876851244455717826, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8876851244455717826, guid: 82654be724b4ee448a31e7ab30d241fa, type: 3}
       propertyPath: m_Materials.Array.data[0]

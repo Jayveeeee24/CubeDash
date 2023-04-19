@@ -21,7 +21,6 @@ public class PlayerCollision : MonoBehaviour
         {
             if (collisionInfo.collider.tag == "Obstacle")
             {
-                //StartCoroutine(cameraShake.Shake(.1f, .01f));
                 AudioSource.PlayClipAtPoint(collideAlert, transform.position);
 
                 if (collisionInfo.collider.name.Contains("Obstacle"))
@@ -44,8 +43,9 @@ public class PlayerCollision : MonoBehaviour
 
 
                 StartCoroutine(FindObjectOfType<GameManager>().ActivateShield());
+                //StartCoroutine(FindObjectOfType<GameManager>().Flash(1f, .5f));
             }
-            
+
         }
 
     }
