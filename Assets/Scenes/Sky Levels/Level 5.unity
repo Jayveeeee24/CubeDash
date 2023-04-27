@@ -196,6 +196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5167161787399934151, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -206,7 +210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalScale.z
@@ -601,6 +605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 5167161787399934151, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -611,7 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9047581428787757149, guid: 2aa62e1ca6ae13c4b9c74303267e7ea4, type: 3}
       propertyPath: m_LocalScale.z
@@ -779,6 +787,10 @@ PrefabInstance:
       propertyPath: restartDelay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 715906818}
     - target: {fileID: 6266846215467729122, guid: fb099297415cf454d91c8fc657fc50d4, type: 3}
       propertyPath: completeLevelUI
       value: 
