@@ -1,19 +1,28 @@
 using System;
+using System.Collections;
 using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Reflection;
 
 public class GameManager : MonoBehaviour
 {
     public bool isGameOver = false;
     public float restartDelay = 1;
+
     public GameObject completeLevelUI;
-    public PlayerMovement player;
+    public Image chapterImage, coinImage;
+    public PlayerMovement playerMovement;
 
     public static int heart = 3;
     private Animation anim;
     public Image heart1, heart2, heart3;
+
+    public bool isShieldActive = false;
+    public GameObject Shield;
+    //public MeshRenderer playerMeshRenderer;
 
     public void Start()
     {
@@ -34,26 +43,53 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GameComplete()
+    public IEnumerator ActivateShield()
     {
-        player.isControllable = false;   
-        completeLevelUI.SetActive(true);
+        Shield.SetActive(true);
+        isShieldActive = true;
+        yield return new WaitForSeconds(2.5f);
+        Shield.SetActive(false);
+        isShieldActive = false;
     }
 
+    //public IEnumerator Flash(float time, float intervalTime)
+    //{
 
+    //    Material mesh = playerMeshRenderer.material;
+    //    Color[] colors = { Color.yellow, Color.red };
+    //    int index = 0;
+    //    float elapsedTime = 0f;
+    //    while (elapsedTime < time)
+    //    {
+    //        isShieldActive = true;
+    //        mesh.color = colors[index % 2];
+    //        elapsedTime += Time.deltaTime;
+    //        index++;
+    //        yield return new WaitForSeconds(intervalTime);
+    //        isShieldActive = false;
+
+    //    }
+    //}
+
+    public void GameComplete()
+    {
+        chapterImage.enabled = false;
+        coinImage.enabled = false;
+        playerMovement.enabled = false;
+        completeLevelUI.SetActive(true);
+    }
     public void GameOver()
     {
         if (!isGameOver)
         {
             isGameOver = true;
             Invoke("Restart", restartDelay);
-
-            heart = 3;
         }
     }
 
     public int removeHeart()
     {
+
         if (heart == 3)
         {
             anim = heart3.GetComponent<Animation>();
@@ -73,14 +109,13 @@ public class GameManager : MonoBehaviour
         }
 
         heart--;
-        Debug.Log(heart);
         return heart;
     }
 
     void Restart()
     {
-        SceneManager.LoadScene(1);
+        heart = 3;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 
 }

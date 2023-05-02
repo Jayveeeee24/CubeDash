@@ -47,10 +47,15 @@ MonoBehaviour:
   isGameOver: 0
   restartDelay: 2
   completeLevelUI: {fileID: 0}
-  player: {fileID: 0}
+  chapterImage: {fileID: 0}
+  coinImage: {fileID: 0}
+  playerMovement: {fileID: 0}
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
+  isShieldActive: 0
+  Shield: {fileID: 0}
+  playerMeshRenderer: {fileID: 0}
 --- !u!82 &3131963632452604994
 AudioSource:
   m_ObjectHideFlags: 0
@@ -63,7 +68,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3dd86454e4f3d6f48bd83080b3f95098, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
